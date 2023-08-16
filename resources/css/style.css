@@ -1,0 +1,260 @@
+/* Font size */
+/* 18px */
+/* 32px */
+/* 36px */
+/*64px */
+/* Font size */
+/* 18px */
+/* 32px */
+/* 36px */
+/*64px */
+.btn {
+  padding: 0.6rem 0.9rem;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #fdb913;
+  border-color: #fdb913;
+  color: #0a3370;
+}
+.btn-primary:hover {
+  background-color: #fee097;
+  border-color: #fee097;
+  color: #0a3370;
+}
+
+.btn-secondary {
+  background-color: #0a3370;
+  border-color: #0a3370;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #0a3370;
+}
+
+.chat-btn {
+  position: fixed;
+  transform: rotate(-90deg);
+  right: -22px;
+  top: 70vh;
+  z-index: 1;
+  font-weight: 600;
+  font-size: var(--font-size-md);
+}
+
+@media only screen and (max-width: 576px) {
+  .mobile-btn-w {
+    width: 100%;
+    margin-bottom: 0.275rem;
+  }
+}
+.accordion-header {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #0a3370;
+}
+
+.accordion-button.collapsed::after {
+  font-family: "FontAwesome";
+  content: "\f067";
+  font-size: 1rem;
+  color: #0a3370;
+  float: right;
+  background-image: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+  font-family: "FontAwesome";
+  content: "\f068";
+  color: #0a3370;
+  float: right;
+  font-size: 1.25rem;
+  background-image: none;
+  transform: none;
+}
+
+/* Font size */
+/* 18px */
+/* 32px */
+/* 36px */
+/*64px */
+section {
+  margin-top: 5rem;
+}
+
+h1 {
+  color: #0a3370;
+  font-size: 2.75rem;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  color: #0a3370;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #0a3370;
+  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+}
+
+p,
+li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #666666;
+  line-height: 1.5;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+a.head-link {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+a.head-link:hover,
+a.head-link:focus {
+  -webkit-text-decoration: underline #70abdb 2px;
+          text-decoration: underline #70abdb 2px;
+  text-underline-offset: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+a {
+  color: #0a3370;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+  h2.value-prop {
+    font-size: 1.5rem;
+  }
+  img {
+    width: 100%;
+  }
+}
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: #0a3370;
+}
+
+.hero-banner {
+  background-image: url("https://client-data.knak.io/production/email_assets/5fd10b569d941/4TNLEqAoNPzl59LUbHgQrRsb8rcW7kdoP5MlxNOM.png");
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-color: #efefef;
+  margin: -5px 0;
+  overflow: hidden;
+}
+
+.hero-banner h1 {
+  font-size: 2.75rem;
+  text-align: left;
+  color: #0a3370;
+  background: rgba(255, 255, 255, 0.5);
+  width: 50%;
+  padding: 3%;
+  float: right;
+  margin: 8% 5%;
+}
+
+.skills-block {
+  background-color: rgba(239, 239, 239, 0.5);
+  border-radius: 15px;
+  margin: 2% auto;
+  align-items: center;
+}
+
+.bg-light-blue-block {
+  background-color: #e6f1fa;
+  padding: 5%;
+  border-radius: 15px;
+  flex: 60%;
+  margin: 5%;
+}
+
+.img-top {
+  width: 150px;
+  height: auto;
+}
+
+.apply-section {
+  background-image: url("https://client-data.knak.io/production/email_assets/5fd10b569d941/mPViQfUpXSgYUtP77DJrHWCVqnYQ6JuS77UWabRL.png");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.apply-section p {
+  color: #071b39;
+}
+
+.snhu-logo-footer {
+  height: auto;
+  width: 100%;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 992px) {
+  .hero-banner {
+    margin: -5px 0px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .navbar > .container {
+    justify-content: center;
+    text-align: center;
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+  .hero-banner {
+    height: auto;
+    background-position: left;
+  }
+  .hero-banner h1 {
+    width: 100%;
+    margin: 50px 0;
+    padding: 10%;
+    background: rgba(255, 255, 255, 0.75);
+  }
+  .sm-col-reverse {
+    flex-direction: column-reverse;
+  }
+}/*# sourceMappingURL=style.css.map */
